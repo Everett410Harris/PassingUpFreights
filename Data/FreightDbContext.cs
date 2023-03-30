@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using PassingUpFreights.Models.Domain;
 
 namespace PassingUpFreights.Data
 {
@@ -8,6 +9,6 @@ namespace PassingUpFreights.Data
         {
         }
 
-
+        public DbSet<Vehicle> Vehicles { get; set; }
     }
 }
