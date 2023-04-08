@@ -1,4 +1,5 @@
 ﻿using System.Security;
+using System.ComponentModel.DataAnnotations;
 
 namespace PassingUpFreights.Models.Domain
 {
